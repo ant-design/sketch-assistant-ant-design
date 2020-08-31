@@ -4,7 +4,7 @@ import { ruleFactory } from '../utils';
 /**
  * 图层名称不允许包含备份
  */
-const TextHeightFn = async (context: RuleContext) => {
+const ruleFn = async (context: RuleContext) => {
   const { utils } = context;
   const { objects } = utils;
   // eslint-disable-next-line no-restricted-syntax
@@ -22,8 +22,8 @@ const TextHeightFn = async (context: RuleContext) => {
 const TextHeight = ruleFactory({
   title: '文本行高需要为文本字号+8px',
   identifier: 'text-height',
-  description: 'xxxxxx',
-  rule: TextHeightFn,
+  description: 'text-height',
+  rule: ruleFn,
 });
 
 export default TextHeight;
