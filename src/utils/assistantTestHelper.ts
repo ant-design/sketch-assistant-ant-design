@@ -1,5 +1,5 @@
 import { AssistantPackage, RuleDefinition } from '@sketch-hq/sketch-assistant-types';
-import { identifier } from '../utils';
+import { identifier } from '.';
 
 interface Config {
   [key: string]: any;

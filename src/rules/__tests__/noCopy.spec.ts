@@ -5,7 +5,7 @@ import noCopyRule from '../noCopy';
 
 const Assistant = assistantFactory(noCopyRule);
 
-describe('测试 Assistant', function () {
+describe('测试 Assistant', () => {
   it('two-copy.sketch 文件包含两条错误', async () => {
     const { violations, ruleErrors } = await testAssistant(
       resolve(__dirname, './noCopy.sketch'),

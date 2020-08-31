@@ -27,7 +27,7 @@ export type RuleFactory = (param: {
 }) => RuleDefinition;
 
 export const ruleFactory: RuleFactory = ({ identifier: name, rule, description, title }) => {
-  const ruleName = identifier + '/' + name;
+  const ruleName = `${identifier}/${name}`;
   return {
     rule,
     name: ruleName,

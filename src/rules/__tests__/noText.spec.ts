@@ -3,7 +3,7 @@ import { testAssistant } from '@sketch-hq/sketch-assistant-utils';
 import { assistantFactory } from '../../utils/assistantTestHelper';
 import noTextRule from '../noText';
 
-describe('测试 NoText 规则', function () {
+describe('测试 NoText 规则', () => {
   it('没有配置时会报错', async () => {
     const Assistant = assistantFactory(noTextRule);
     const { ruleErrors } = await testAssistant(resolve(__dirname, './noText.sketch'), Assistant);

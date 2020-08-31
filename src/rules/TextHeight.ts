@@ -7,6 +7,7 @@ import { ruleFactory } from '../utils';
 const TextHeightFn = async (context: RuleContext) => {
   const { utils } = context;
   const { objects } = utils;
+  // eslint-disable-next-line no-restricted-syntax
   for (const textStyle of objects.textStyle) {
     const size = textStyle?.encodedAttributes.MSAttributedStringFontAttribute.attributes.size;
     const maxHeight = textStyle?.encodedAttributes.paragraphStyle?.maximumLineHeight;

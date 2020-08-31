@@ -7,6 +7,7 @@ import { ruleFactory } from '../utils';
 const noCopyRuleFn = async (context: RuleContext) => {
   const { utils } = context;
   const { objects } = utils;
+
   for (const layer of objects.anyLayer) {
     if (layer.name.includes('备份')) {
       utils.report(`图层${layer.name}包含"备份"文本`, layer);
