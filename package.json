@@ -1,14 +1,14 @@
 {
   "name": "@ant-design/sketch-assistant",
   "homepage": "https://github.com/ant-design/sketch-assistant-ant-design",
-  "version": "0.1.1",
+  "version": "0.1.2-0",
   "main": "dist/index.js",
   "sketch": "dist/sketch.js",
   "license": "MIT",
   "repository": {
-  "type": "git",
-  "url": "git+https://github.com/ant-design/sketch-assistant-ant-design.git"
-},
+    "type": "git",
+    "url": "git+https://github.com/ant-design/sketch-assistant-ant-design.git"
+  },
   "sketch-assistant": {
     "title": "Ant Design Sketch Assistant",
     "description": "An assistant to help you follow Ant Design guideline better",
