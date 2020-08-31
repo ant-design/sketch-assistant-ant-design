@@ -5,3 +5,4 @@ coverage
 **/*.d.ts
 # Scripts
 jest-stare
+tests

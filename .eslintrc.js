@@ -14,4 +14,9 @@ module.exports = {
     'no-underscore-dangle': 0,
     'no-restricted-syntax': 'off',
   },
+  settings: {
+    typescript: {
+      alwaysTryTypes: true,
+    },
+  },
 };
