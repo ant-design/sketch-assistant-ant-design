@@ -11,8 +11,10 @@
 
 <!-- npm url -->
 
-[npm-image]: http://img.shields.io/npm/v/sketch-assistant-ant-design.svg?style=flat-square
-[npm-url]: http://npmjs.org/package/sketch-assistant-ant-design
+[npm-image]: http://img.shields.io/npm/v/@ant-design/sketch-assistant.svg?style=flat-square
+[npm-url]: http://npmjs.org/package/@ant-design/sketch-assistant
+[download-image]: https://img.shields.io/npm/dm/@ant-design/sketch-assistant.svg?style=flat-square
+[download-url]: https://npmjs.org/package/@ant-design/sketch-assistant
 
 <!-- coverage -->
 
@@ -37,8 +39,6 @@
 [david-dev-image]:
   https://img.shields.io/david/dev/ant-design/sketch-assistant-ant-design?style=flat-square
 [david-url]: https://david-dm.org/ant-design/sketch-assistant-ant-design
-[download-image]: https://img.shields.io/npm/dm/sketch-assistant-ant-design.svg?style=flat-square
-[download-url]: https://npmjs.org/package/sketch-assistant-ant-design
 
 </div>
 
