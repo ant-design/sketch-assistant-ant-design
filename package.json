@@ -1,5 +1,5 @@
 {
-  "name": "sketch-assistant-ant-design",
+  "name": "@ant-design/sketch-assistant",
   "homepage": "https://github.com/arvinxx/sketch-assistant-ant-design",
   "version": "0.1.0",
   "main": "dist/index.js",
@@ -75,5 +75,8 @@
   },
   "dependencies": {
     "@sketch-hq/sketch-assistant-types": "6.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
