@@ -1,1 +1,1 @@
-export default 'sketch-assistant-ant-design';
+export default '@ant-design/sketch-assistant';

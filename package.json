@@ -27,7 +27,7 @@
   ],
   "scripts": {
     "test": "jest --no-cache",
-    "test:coverage": "jest --coverage",
+    "test:coverage": "jest --no-cache --coverage",
     "build": "rm -rf dist && npm run build:node && npm run build:sketch",
     "build:node": "tsc",
     "build:sketch": "webpack",
