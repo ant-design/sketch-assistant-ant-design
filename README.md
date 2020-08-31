@@ -4,14 +4,10 @@
 
 [![NPM version][npm-image]][npm-url] [![NPM downloads][download-image]][download-url]
 
-[![Test CI status][test-ci]][test-ci-url] ![Deploy CI][deploy-ci] [![Coverage][coverage]][codecov-url]
+[![Test CI status][test-ci]][test-ci-url] ![Deploy CI][deploy-ci]
+[![Coverage][coverage]][codecov-url]
 
 [![david deps][david-image]][david-url] [![david devDeps][david-dev-image]][david-dev-url]
-
-[![ docs by dumi][dumi-url]](https://d.umijs.org/) [![Build With father][father-url]](https://github.com/umijs/father/)
-
-[dumi-url]: https://img.shields.io/badge/docs%20by-dumi-blue
-[father-url]: https://img.shields.io/badge/build%20with-father-028fe4.svg
 
 <!-- npm url -->
 
@@ -20,28 +16,31 @@
 
 <!-- coverage -->
 
-[coverage]: https://codecov.io/gh/ant-design/sketch-assistant-ant-design/branch/master/graph/badge.svg
+[coverage]:
+  https://codecov.io/gh/ant-design/sketch-assistant-ant-design/branch/master/graph/badge.svg
 [codecov-url]: https://codecov.io/gh/ant-design/sketch-assistant-ant-design/branch/master
 
 <!-- Github CI -->
 
 [test-ci]: https://github.com/ant-design/sketch-assistant-ant-design/workflows/Test%20CI/badge.svg
-[deploy-ci]: https://github.com/ant-design/sketch-assistant-ant-design/workflows/Deploy%20CI/badge.svg
-[test-ci-url]: https://github.com/ant-design/sketch-assistant-ant-design/actions?query=workflow%3ATest%20CI
-[deploy-ci-ci]: https://github.com/ant-design/sketch-assistant-ant-design/actions?query=workflow%3ADeploy%20CI
+[deploy-ci]:
+  https://github.com/ant-design/sketch-assistant-ant-design/workflows/Deploy%20CI/badge.svg
+[test-ci-url]:
+  https://github.com/ant-design/sketch-assistant-ant-design/actions?query=workflow%3ATest%20CI
+[deploy-ci-ci]:
+  https://github.com/ant-design/sketch-assistant-ant-design/actions?query=workflow%3ADeploy%20CI
+
+<!-- Dependency -->
+
 [david-image]: https://img.shields.io/david/ant-design/sketch-assistant-ant-design?style=flat-square
 [david-dev-url]: https://david-dm.org/ant-design/sketch-assistant-ant-design?type=dev
-[david-dev-image]: https://img.shields.io/david/dev/ant-design/sketch-assistant-ant-design?style=flat-square
+[david-dev-image]:
+  https://img.shields.io/david/dev/ant-design/sketch-assistant-ant-design?style=flat-square
 [david-url]: https://david-dm.org/ant-design/sketch-assistant-ant-design
 [download-image]: https://img.shields.io/npm/dm/sketch-assistant-ant-design.svg?style=flat-square
 [download-url]: https://npmjs.org/package/sketch-assistant-ant-design
 
 </div>
-
-> 💁‍♀️ This repository contains a starter project for developing a new Assistant.
-
-👉
-[Click here to generate a new project using this repository as a template](https://github.com/sketch-hq/sketch-assistant-template/generate)
 
 ## Getting started
 
