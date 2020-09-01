@@ -10,6 +10,6 @@ describe('测试 TextHeight 规则', () => {
       resolve(__dirname, './TextHeight.sketch'),
       Assistant,
     );
-    expect(violations).toHaveLength(1);
+    expect(violations).toHaveLength(2);
   });
 });
