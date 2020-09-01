@@ -2,7 +2,7 @@ import { RuleContext } from '@sketch-hq/sketch-assistant-types';
 import { ruleFactory } from '../utils';
 
 /**
- * 图层名称不允许包含备份
+ * 图形尺寸不是整数 规则
  */
 const ruleFn = async (context: RuleContext) => {
   const Layers = context.utils.objects.anyLayer;

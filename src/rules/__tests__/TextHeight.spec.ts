@@ -1,7 +1,7 @@
 import { resolve } from 'path';
 import { testAssistant } from '@sketch-hq/sketch-assistant-utils';
 import { assistantFactory } from '../../utils/assistantTestHelper';
-import TextHeightRule from '../TextHeight';
+import TextHeightRule from '../textHeight';
 
 describe('测试 TextHeight 规则', () => {
   it('TextHeight 文本', async () => {

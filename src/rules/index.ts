@@ -1,4 +1,4 @@
-export { default as TextHeightRule } from './TextHeight';
-export { default as RadiusRule } from './Radius';
-export { default as IntegerRule } from './Integer';
-export { default as HidenlayerRule } from './Hidenlayer';
+export { default as textHeightRule } from './textHeight';
+export { default as radiusRule } from './radius';
+export { default as integerRule } from './integer';
+export { default as hidenlayerRule } from './hidenLayer';
