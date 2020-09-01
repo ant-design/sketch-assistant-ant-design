@@ -20,7 +20,7 @@ const TextHeightFn = async (context: RuleContext) => {
 };
 
 const TextHeight = ruleFactory({
-  title: '文本行高需要为文本字号+8px',
+  title: '文本行高应为文本字号+8px',
   identifier: 'text-height',
   description: 'xxxxxx',
   rule: TextHeightFn,

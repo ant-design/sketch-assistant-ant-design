@@ -11,16 +11,16 @@ const ruleFn = async (context: RuleContext) => {
       layer.attributedString.attributes[0].attributes.MSAttributedStringFontAttribute.attributes
         .name;
     const PingFang = fontName.includes('PingFangSC');
-    const HelveticaNeue = fontName.includes('Helvetica Neue');
-    const SFProText = fontName.includes('SF Pro Text');
+    const HelveticaNeue = fontName.includes('HelveticaNeue');
+    const SFProText = fontName.includes('SFProText');
     if (!(PingFang || HelveticaNeue || SFProText)) {
-      context.utils.report('字体为 PingFangSC、Helvetica Neue、SF Pro Text', layer);
+      context.utils.report('字体应为 PingFangSC、HelveticaNeue、SFProText', layer);
     }
   }
 };
 
 const Rule = ruleFactory({
-  title: '字体为 PingFangSC、Helvetica Neue、SF Pro Text',
+  title: '字体应为 PingFangSC、Helvetica Neue、SFProText',
   identifier: 'Font',
   description: 'Font',
   rule: ruleFn,
