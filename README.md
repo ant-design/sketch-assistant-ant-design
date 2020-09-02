@@ -1,4 +1,4 @@
-<h1 align="center">Ant Design Assistant</h1>
+<h1 align="center">Sketch Assistant for Ant Design</h1>
 
 <div align="center">
 
