@@ -2,7 +2,7 @@ import { RuleContext } from '@sketch-hq/sketch-assistant-types';
 import { ruleFactory } from '../utils';
 
 /**
- * 图层名称不允许包含备份
+ * 文本行高+8规则
  */
 const TextHeightFn = async (context: RuleContext) => {
   const { utils } = context;
@@ -20,7 +20,7 @@ const TextHeightFn = async (context: RuleContext) => {
 };
 
 const TextHeight = ruleFactory({
-  title: '文本行高需要为文本字号+8px',
+  title: '文本行高应为文本字号+8px',
   identifier: 'text-height',
   description: 'xxxxxx',
   rule: TextHeightFn,
