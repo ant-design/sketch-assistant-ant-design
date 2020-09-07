@@ -15,14 +15,15 @@ const ruleFn = async (context: RuleContext) => {
     const size16 = fontSize === 16;
     const size20 = fontSize === 20;
     const size24 = fontSize === 24;
-    if (!(size12 || size14 || size16 || size20 || size24)) {
-      context.utils.report('字号应为12、14、16、20、24', layer);
+    const size30 = fontSize === 30;
+    if (!(size12 || size14 || size16 || size20 || size24 || size30)) {
+      context.utils.report('字号应为12、14、16、20、24、30', layer);
     }
   }
 };
 
 const Rule = ruleFactory({
-  title: '字号应为12、14、16、20、24',
+  title: '字号应为12、14、16、20、24、30',
   identifier: 'FontSize',
   description: 'FontSize',
   rule: ruleFn,

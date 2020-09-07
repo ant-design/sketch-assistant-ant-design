@@ -14,13 +14,13 @@ const ruleFn = async (context: RuleContext) => {
     const HelveticaNeue = fontName.includes('HelveticaNeue');
     const SFProText = fontName.includes('SFProText');
     if (!(PingFang || HelveticaNeue || SFProText)) {
-      context.utils.report('字体应为 PingFangSC、HelveticaNeue、SFProText', layer);
+      context.utils.report('字体应为 PingFangSC、HelveticaNeue、SF Pro Text', layer);
     }
   }
 };
 
 const Rule = ruleFactory({
-  title: '字体应为 PingFangSC、Helvetica Neue、SFProText',
+  title: '字体应为 PingFangSC、Helvetica Neue、SF Pro Text',
   identifier: 'Font',
   description: 'Font',
   rule: ruleFn,
