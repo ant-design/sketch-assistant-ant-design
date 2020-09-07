@@ -19,9 +19,9 @@ const ruleFn = async (context: RuleContext) => {
 };
 
 const Rule = ruleFactory({
-  title: '以下图形的 X/Y/W/H 值存在小数',
+  title: '🧩 图形的 X、Y、W、H 值存在小数',
   identifier: 'Integer',
-  description: 'Integer',
+  description: '图形的 X、Y、W、H 值都应为整数',
   rule: ruleFn,
 });
 

@@ -20,9 +20,9 @@ const ruleFn = async (context: RuleContext) => {
 };
 
 const Rule = ruleFactory({
-  title: '字体应为 PingFangSC、Helvetica Neue、SF Pro Text',
+  title: '✏️ 字体应为 PingFangSC、Helvetica Neue、SF Pro Text',
   identifier: 'Font',
-  description: 'Font',
+  description: '字体应为 PingFangSC、Helvetica Neue、SF Pro Text',
   rule: ruleFn,
 });
 

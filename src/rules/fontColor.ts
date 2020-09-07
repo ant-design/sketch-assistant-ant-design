@@ -22,9 +22,9 @@ const ruleFn = async (context: RuleContext) => {
 };
 
 const Rule = ruleFactory({
-  title: '以下文本透明度（Alpha 值）应为 25%、45%、65%、85%',
+  title: '🎨 文本透明度应为 25%、45%、65%、85%',
   identifier: 'fontColor',
-  description: 'fontColor',
+  description: '文本透明度应为 25%、45%、65%、85%',
   rule: ruleFn,
 });
 

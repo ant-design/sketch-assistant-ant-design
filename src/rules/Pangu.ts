@@ -17,9 +17,9 @@ const ruleFn = async (context: RuleContext) => {
 };
 
 const Rule = ruleFactory({
-  title: '盘古之白：中英文之间需空格，数字与文字之间需空格',
+  title: '✏️ 盘古之白：中英文之间需空格，数字与文字之间需空格',
   identifier: 'Pangu',
-  description: 'Pangu',
+  description: '盘古之白：中英文之间需空格，数字与文字之间需空格',
   rule: ruleFn,
 });
 

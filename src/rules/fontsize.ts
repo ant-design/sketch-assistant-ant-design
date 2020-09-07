@@ -23,9 +23,9 @@ const ruleFn = async (context: RuleContext) => {
 };
 
 const Rule = ruleFactory({
-  title: '字号应为12、14、16、20、24、30',
+  title: '✏️ 字号应为 12、14、16、20、24、30',
   identifier: 'FontSize',
-  description: 'FontSize',
+  description: '字号应为 12、14、16、20、24、30',
   rule: ruleFn,
 });
 

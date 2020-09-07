@@ -39,9 +39,9 @@ const ruleFn = async (context: RuleContext) => {
 };
 
 const Rule = ruleFactory({
-  title: '矩形圆角应为 2px，以下图层不符合规则',
+  title: '🧩 矩形圆角应为 2px',
   identifier: 'radius',
-  description: 'radius',
+  description: '矩形圆角应为 2px',
   rule: ruleFn,
 });
 

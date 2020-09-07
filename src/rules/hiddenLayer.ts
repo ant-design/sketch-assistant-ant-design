@@ -14,9 +14,9 @@ const ruleFn = async (context: RuleContext) => {
 };
 
 const Rule = ruleFactory({
-  title: '以下图层被隐藏（请检查是否需要删除）',
+  title: '👻 以下图层被隐藏,请检查是否需要删除',
   identifier: 'hide-layer',
-  description: 'hide-layer',
+  description: '以下图层被隐藏,请检查是否需要删除',
   rule: ruleFn,
 });
 
