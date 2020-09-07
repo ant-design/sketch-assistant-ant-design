@@ -24,6 +24,7 @@ const assistant: AssistantPackage = async () => {
       FontSizeRule,
       PanguRule,
       capitialRule,
+      fontColorRule,
     ],
     config: {
       rules: {

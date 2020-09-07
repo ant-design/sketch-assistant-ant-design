@@ -38,7 +38,7 @@
     "build:sketch": "webpack",
     "--------- ": "",
     "package": "npm run build && npm pack",
-    "release": "npm publish",
+    "publish": "npm publish",
     "---------  ": "",
     "lint": "npm run lint-eslint",
     "lint-eslint": "eslint --cache --ext .js,.ts --format=pretty ./src",
