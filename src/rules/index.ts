@@ -3,3 +3,7 @@ export { default as radiusRule } from './radius';
 export { default as integerRule } from './integer';
 export { default as hiddenLayerRule } from './hiddenLayer';
 export { default as fontColorRule } from './fontColor';
+export { default as FontRule } from './font';
+export { default as FontSizeRule } from './fontsize';
+export { default as PanguRule } from './Pangu';
+export { default as capitialRule } from './Capitial';
