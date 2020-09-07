@@ -7,12 +7,13 @@ import { ruleFactory } from '../utils';
 const ruleFn = async (context: RuleContext) => {
   const Layers = context.utils.objects.anyLayer;
   for (const layer of Layers) {
-    const errorX = layer.frame.x.toString().includes('.');
-    const errorY = layer.frame.y.toString().includes('.');
-    const errorH = layer.frame.height.toString().includes('.');
-    const errorW = layer.frame.width.toString().includes('.');
+    const errorX = !layer.frame.x.toFixed(2).endsWith('.00');
+    const errorY = !layer.frame.y.toFixed(2).endsWith('.00');
+    const errorH = !layer.frame.height.toFixed(2).endsWith('.00');
+    const errorW = !layer.frame.width.toFixed(2).endsWith('.00');
     if (errorX || errorY || errorH || errorW) {
-      context.utils.report('图形尺寸不是整数', layer);
+      if (layer._class !== 'shapePath' && layer._class !== 'shapeGroup')
+        context.utils.report('图形尺寸不是整数', layer);
     }
   }
 };
