@@ -8,15 +8,16 @@ const ruleFn = async (context: RuleContext) => {
   const Layers = context.utils.objects.anyLayer;
   for (const layer of Layers) {
     const fontColor = layer.style?.textStyle?.encodedAttributes.MSAttributedStringColorAttribute!;
-
+    const opacity = layer.style?.contextSettings?.opacity!;
     if (fontColor && fontColor.blue === 0 && fontColor.green === 0 && fontColor.red === 0) {
-      if (
-        fontColor.alpha !== 0.25 &&
-        fontColor.alpha !== 0.45 &&
-        fontColor.alpha !== 0.65 &&
-        fontColor.alpha !== 0.85
-      )
-        context.utils.report('文本透明度', layer);
+      const condition1 = fontColor.alpha === 1 && [0.25, 0.45, 0.65, 0.85].includes(opacity);
+      const correctColorOpacity =
+        opacity === 1 &&
+        (fontColor.alpha === 0.25 ||
+          fontColor.alpha === 0.45 ||
+          fontColor.alpha === 0.65 ||
+          fontColor.alpha === 0.85);
+      if (!(condition1 || correctColorOpacity)) context.utils.report('文本透明度', layer);
     }
   }
 };

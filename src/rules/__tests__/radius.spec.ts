@@ -26,7 +26,7 @@ describe('测试 radius 规则', () => {
       resolve(__dirname, './radius/2-0_2-2_radius.sketch'),
       Assistant,
     );
-    expect(violations).toHaveLength(2);
+    expect(violations).toHaveLength(3);
   });
   it('输入圆角顺序对校验结果无影响', async () => {
     const Assistant = assistantFactory(radiusRule);
