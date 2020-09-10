@@ -1,6 +1,6 @@
 {
   "name": "@ant-design/sketch-assistant",
-  "homepage": "https://github.com/ant-design/sketch-assistant-ant-design",
+  "homepage": "https://ant.design/docs/spec/introduce",
   "version": "0.2.6",
   "main": "dist/index.js",
   "sketch": "dist/sketch.js",
